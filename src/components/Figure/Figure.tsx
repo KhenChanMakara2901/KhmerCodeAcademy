@@ -42,11 +42,11 @@ export default function Step() {
               Khmer code Academy Can help you reach your destination.
             </p>
             <Link
-              href="/Course"
+              href="https://t.me/Kongsun"
               className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md mt-9 bg-gradient-to-r from-sky-600 to-green-700 hover:opacity-80"
               role="button"
             >
-              Explore more
+              REGISTER NOW
             </Link>
           </div>
         </div>

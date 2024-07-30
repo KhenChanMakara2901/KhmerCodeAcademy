@@ -16,9 +16,9 @@ export default function page() {
             <li>Html Crud</li>
             <li>Html Link</li>
           </ul>
-          <button className="mt-8 py-3 px-6 bg-blue-700 text-white font-bold rounded-full hover:bg-green-700 focus:outline-none focus:shadow-outline-blue transition duration-200">
+          <button className="mt-8 py-3 px-6 bg-white text-gray-900 font-bold rounded-full hover:bg-green-600 hover:scale-105 focus:outline-none focus:shadow-outline-blue transition duration-200">
             <Link target="-blank" href="https://t.me/Kongsun">
-              Get Started
+              REGISTER NOW
             </Link>
           </button>
         </div>
@@ -34,9 +34,9 @@ export default function page() {
             <li>Css Layout</li>
             <li>Css Advance</li>
           </ul>
-          <button className="mt-8 py-3 px-6 bg-blue-700 text-white font-bold rounded-full hover:bg-green-700 focus:outline-none focus:shadow-outline-blue transition duration-200">
+          <button className="mt-8 py-3 px-6 bg-white text-gray-900 font-bold rounded-full hover:bg-green-700 hover:scale-105 focus:outline-none focus:shadow-outline-blue transition duration-200">
             <Link target="-blank" href="https://t.me/Kongsun">
-              Get Started
+              REGISTER NOW
             </Link>
           </button>
         </div>
@@ -52,9 +52,9 @@ export default function page() {
             <li>Data Types</li>
             <li>Array</li>
           </ul>
-          <button className="mt-8 py-3 px-6 bg-blue-700 text-white font-bold rounded-full hover:bg-green-700 focus:outline-none focus:shadow-outline-blue transition duration-200">
+          <button className="mt-8 py-3 px-6 bg-white text-gray-900 font-bold rounded-full hover:bg-green-700 hover:scale-105 focus:outline-none focus:shadow-outline-blue transition duration-200">
             <Link target="-blank" href="https://t.me/Kongsun">
-              Get Started
+              REGISTER NOW
             </Link>
           </button>
         </div>
@@ -73,9 +73,9 @@ export default function page() {
             <li>jQuery Events</li>
             <li>jQuery Misc</li>
           </ul>
-          <button className="mt-8 py-3 px-6 bg-blue-700 text-white font-bold rounded-full hover:bg-green-700 focus:outline-none focus:shadow-outline-blue transition duration-200">
+          <button className="mt-8 py-3 px-6 bg-white text-gray-900 font-bold rounded-full hover:bg-green-700 hover:scale-105 focus:outline-none focus:shadow-outline-blue transition duration-200">
             <Link target="-blank" href="https://t.me/Kongsun">
-              Get Started
+              REGISTER NOW
             </Link>
           </button>
         </div>
@@ -93,9 +93,9 @@ export default function page() {
             <li>Stat Management</li>
             <li>Styling</li>
           </ul>
-          <button className="mt-8 py-3 px-6 bg-blue-700 text-white font-bold rounded-full hover:bg-green-700 focus:outline-none focus:shadow-outline-blue transition duration-200">
+          <button className="mt-8 py-3 px-6 bg-white text-gray-900 font-bold rounded-full hover:bg-green-700 hover:scale-105 focus:outline-none focus:shadow-outline-blue transition duration-200">
             <Link target="-blank" href="https://t.me/Kongsun">
-              Get Started
+              REGISTER NOW
             </Link>
           </button>
         </div>
@@ -113,9 +113,9 @@ export default function page() {
             <li>Configuring</li>
             <li>Deploying.Vercel</li>
           </ul>
-          <button className="mt-8 py-3 px-6 bg-blue-700 text-white font-bold rounded-full hover:bg-green-700 focus:outline-none focus:shadow-outline-blue transition duration-200">
+          <button className="mt-8 py-3 px-6 bg-white text-gray-900 font-bold rounded-full hover:bg-green-700 hover:scale-105 focus:outline-none focus:shadow-outline-blue transition duration-200">
             <Link target="-blank" href="https://t.me/Kongsun">
-              Get Started
+              REGISTER NOW
             </Link>
           </button>
         </div>

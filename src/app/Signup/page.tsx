@@ -135,7 +135,7 @@ export default function page() {
         <div className="flex items-center justify-center px-4 py-10 sm:py-16 lg:py-24 sm:px-6 lg:px-8">
           <div>
             <Image
-              className="w-full mx-auto shadow shadow-green-500"
+              className="w-full mx-auto shadow shadow-green-500 animate-slideIn"
               src={Sign1}
               alt="Image"
             />

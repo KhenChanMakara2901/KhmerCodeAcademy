@@ -4,7 +4,7 @@ export default function page() {
   return (
     <div className="max-w-screen-lg mx-auto px-4 mt-20">
       <div className="flex flex-col gap-4 md:flex-row items-center justify-center">
-        <div className="md:w-1/3 p-6 rounded-lg border shadow shadow-blue-700 bg-gradient-to-r  from-orange-600 to-orange-200 ">
+        <div className="md:w-1/3 p-6 rounded-lg border shadow shadow-blue-700 bg-gradient-to-r  from-orange-600 to-orange-200 animate-slideIn">
           <h2 className="text-2xl font-bold mb-2">HTML</h2>
           <p className="text-white mb-4">3 PROJECT</p>
           <p className="text-4xl font-bold mb-4">
@@ -22,7 +22,7 @@ export default function page() {
             </Link>
           </button>
         </div>
-        <div className="md:w-1/3 p-6 rounded-lg border shadow shadow-orange-600 bg-gradient-to-r from-blue-700 to-blue-200">
+        <div className="md:w-1/3 p-6 rounded-lg border shadow shadow-orange-600 bg-gradient-to-r from-blue-700 to-blue-200 animate-slideIn">
           <h2 className="text-2xl font-bold mb-2">CSS</h2>
           <p className="text-white mb-4">3 PROJECT</p>
           <p className="text-4xl font-bold mb-4">
@@ -40,7 +40,7 @@ export default function page() {
             </Link>
           </button>
         </div>
-        <div className="md:w-1/3 p-6 rounded-lg border shadow shadow-black bg-gradient-to-r from-yellow-500 to-yellow-200">
+        <div className="md:w-1/3 p-6 rounded-lg border shadow shadow-black bg-gradient-to-r from-yellow-500 to-yellow-200 animate-slideIn">
           <h2 className="text-2xl font-bold mb-2">JAVASRICPT</h2>
           <p className="text-white mb-4">3 PROJECT</p>
           <p className="text-4xl font-bold mb-4">
@@ -60,7 +60,7 @@ export default function page() {
         </div>
       </div>
       <div className="flex flex-col gap-4 md:flex-row items-center justify-center pt-10">
-        <div className="md:w-1/3 p-6 rounded-lg border shadow shadow-yellow-500  bg-gradient-to-r from-blue-900 to-blue-200">
+        <div className="md:w-1/3 p-6 rounded-lg border shadow shadow-yellow-500  bg-gradient-to-r from-blue-900 to-blue-200 animate-slideIn">
           <h2 className="text-2xl font-bold mb-2">JQUERY</h2>
           <p className="text-white mb-4">3 PROJECT</p>
           <p className="text-4xl font-bold mb-4">
@@ -79,7 +79,7 @@ export default function page() {
             </Link>
           </button>
         </div>
-        <div className="md:w-1/3 p-6 rounded-lg border shadow shadow-blue-950 bg-gradient-to-r from-sky-500 to-sky-200">
+        <div className="md:w-1/3 p-6 rounded-lg border shadow shadow-blue-950 bg-gradient-to-r from-sky-500 to-sky-200 animate-slideIn">
           <h2 className="text-2xl font-bold mb-2">REACT.JS</h2>
           <p className="text-white mb-4">PROJECT Free TAILWIND</p>
           <p className="text-4xl font-bold mb-4">
@@ -99,7 +99,7 @@ export default function page() {
             </Link>
           </button>
         </div>
-        <div className="md:w-1/3 p-6 rounded-lg border shadow shadow-sky-600  bg-gradient-to-r from-black to-white">
+        <div className="md:w-1/3 p-6 rounded-lg border shadow shadow-sky-600  bg-gradient-to-r from-black to-white animate-slideIn">
           <h2 className="text-2xl font-bold mb-2 text-white">NEXT.JS 14</h2>
           <p className="text-white mb-4">3 PROJECT Free TAILWIND</p>
           <p className="text-4xl text-white font-bold mb-4">

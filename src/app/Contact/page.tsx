@@ -8,7 +8,7 @@ export default function page() {
     <div className="py-10 bg-slate-100 sm:py-16 lg:py-24">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-4xl font-bold leading-tight text-gray-900 sm:text-5xl lg:text-6xl">
+          <h2 className="text-4xl font-bold leading-tight text-gray-900 sm:text-5xl lg:text-6xl animate-fadeIn">
             CONTACT US
           </h2>
         </div>

@@ -10,7 +10,7 @@ export default function page() {
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="flex items-center justify-center px-4 py-10 bg-slate-100 sm:px-6 lg:px-8 sm:py-16 lg:py-24">
           <div className="xl:w-full xl:max-w-sm 2xl:max-w-md xl:mx-auto">
-            <h2 className="text-4xl font-extrabold leading-tight text-black sm:text-5xl">
+            <h2 className="text-4xl font-extrabold leading-tight text-black sm:text-5xl animate-fadeIn">
               LOG IN TO CELEBRATION
             </h2>
             <p className="mt-2 text-base text-gray-600">

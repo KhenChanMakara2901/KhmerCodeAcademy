@@ -8,7 +8,7 @@ import About4 from "@/public/About Us/About4.jpg";
 export default function page() {
   return (
     <div className="text-center p-10">
-      <h2 className="font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+      <h2 className="font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl animate-fadeIn">
         WHY YOU SHOULD CHOOSE US
       </h2>
       <div className="flex flex-wrap items-center mt-20 text-center">
@@ -16,7 +16,7 @@ export default function page() {
           <Image
             src={About1}
             alt="Image"
-            className="inline-block rounded-xl shadow-lg shadow-fuchsia-600 border border-merino-400"
+            className="inline-block rounded-xl shadow-lg shadow-fuchsia-600 border border-merino-400 animate-slideIn"
           />
         </div>
         <div className="w-full md:w-2/5 lg:w-1/2 px-4 text-center md:text-left lg:pl-12">
@@ -35,7 +35,7 @@ export default function page() {
           <Image
             src={About2}
             alt="Image"
-            className="inline-block rounded-xl shadow-lg shadow-lime-500 border border-merino-400"
+            className="inline-block rounded-xl shadow-lg shadow-lime-500 border border-merino-400 animate-slideIn"
           />
         </div>
         <div className="w-full md:w-2/5 lg:w-1/2 px-4 md:order-first text-center md:text-left lg:pr-12">
@@ -55,7 +55,7 @@ export default function page() {
           <Image
             src={About3}
             alt="Image"
-            className="inline-block rounded-xl shadow-lg shadow-emerald-600 border border-merino-400"
+            className="inline-block rounded-xl shadow-lg shadow-emerald-600 border border-merino-400 animate-slideIn"
           />
         </div>
         <div className="w-full md:w-2/5 lg:w-1/2 px-4 text-center md:text-left lg:pl-12">
@@ -76,7 +76,7 @@ export default function page() {
           <Image
             src={About4}
             alt="Image"
-            className="inline-block rounded-xl shadow-lg shadow-sky-600 border border-merino-400"
+            className="inline-block rounded-xl shadow-lg shadow-sky-600 border border-merino-400 animate-slideIn"
           />
         </div>
         <div className="w-full md:w-2/5 lg:w-1/2 px-4 md:order-first text-center md:text-left lg:pr-12">

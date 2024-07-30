@@ -32,7 +32,7 @@ export default function App() {
           <a href="/Blog">BLOG</a>
         </li>
         <li className="hover:underline underline-offset-2">
-          <a href="/Sigin">LOGIN</a>
+          <a href="/Signup">SIGN UP</a>
         </li>
       </ul>
     </Link>,
@@ -45,13 +45,16 @@ export default function App() {
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
           <AcmeLogo />
-          <p className="font-bold text-inherit text-2xl">KCA</p>
+          <p className="font-bold text-inherit text-2xl text-sky-700">KCA</p>
         </NavbarBrand>
       </NavbarContent>
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+      <NavbarContent
+        className="hidden sm:flex gap-4 animate-fadeIn"
+        justify="center"
+      >
         <NavbarBrand>
           <AcmeLogo />
-          <p className="font-bold text-inherit text-3xl">KCA</p>
+          <p className="font-bold text-inherit text-3xl text-sky-700">KCA</p>
         </NavbarBrand>
         <NavbarItem>
           <Link
@@ -95,7 +98,7 @@ export default function App() {
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
+        <NavbarItem className="hidden lg:flex animate-fadeIn">
           <Link
             className="text-gray-900 hover:underline underline-offset-2 font-bold"
             href="/Signup"
@@ -106,7 +109,7 @@ export default function App() {
         <NavbarItem>
           <Button
             as={Link}
-            className="text-gray-900 font-bold hover:bg-green-500"
+            className="text-gray-900 font-bold hover:bg-green-500 animate-fadeIn"
             href="/Signin"
             variant="flat"
           >

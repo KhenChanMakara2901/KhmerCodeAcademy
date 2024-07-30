@@ -36,14 +36,15 @@ export default function Step() {
               <Image src={Course} alt="Logo" width={50} />
             </div>
             <h2 className="mt-10 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">
-              TALK TO TIME BECOME TO DEVELOPER
+              TALK TO TIME BECOME TO DEVELOPER.
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-gray-950">
-              Khmer code Academy Can help you reach your destination.
+              KHMER CODE ACADEMY CAN HELP YOU REACH YOUR DESTINATION.
             </p>
             <Link
+              target="-blank"
               href="https://t.me/Kongsun"
-              className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md mt-9 bg-gradient-to-r from-sky-600 to-green-700 hover:opacity-80"
+              className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md mt-9 bg-gradient-to-r from-sky-600 to-green-700  hover:text-gray-900 hover:scale-105"
               role="button"
             >
               REGISTER NOW

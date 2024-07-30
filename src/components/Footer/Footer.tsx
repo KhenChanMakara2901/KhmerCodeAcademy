@@ -61,6 +61,7 @@ export default function Footer() {
             </ul>
             <div className="w-full h-px mt-8 mb-5 xl:w-px xl:m-0 xl:h-6 bg-gray-50/20"></div>
             <ul className="flex items-center justify-center space-x-8 xl:justify-end">
+              <p className="text-xl font-medium">CONNECT WIH US:</p>
               <li>
                 <Link
                   target="-blank"

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import next from "@/public/Features/next.png";
+import next from "@/public/Features/next.svg";
 import react from "@/public/Features/react.svg";
 import database from "@/public/Features/database.svg";
 import tailwind from "@/public/Features/tailwind.svg";

@@ -26,7 +26,7 @@ export function ImagesSliderDemo() {
         }}
         className="z-50 flex flex-col justify-center items-center"
       >
-        <motion.p className="font-extrabold text-5xl md:text-7xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
+        <motion.p className="font-extrabold text-5xl md:text-7xl text-center bg-clip-text text-transparent bg-gradient-to-b from-white to-slate-200 py-4">
           WELCOME TO <br /> KHMER CODE ACADEMY (KCA)
         </motion.p>
         <Link href="/Contact">

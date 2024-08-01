@@ -10,28 +10,37 @@ import {
   Link,
   Button,
 } from "@nextui-org/react";
-
+import { SiSimplelogin } from "react-icons/si";
 import { AcmeLogo } from "@/src/components/Navbar/Logo";
+import { FaHome, FaUsers, FaBlog } from "react-icons/fa";
+import { FaBookTanakh } from "react-icons/fa6";
+import { MdContacts } from "react-icons/md";
 export default function App() {
   const menuItems = [
     <Link>
-      <ul className="text-gray-900 font-bold">
-        <li className="hover:underline underline-offset-8">
+      <ul className="text-sky-700 font-bold flex flex-col p-4">
+        <li className="hover:underline underline-offset-8 text-lg py-4 flex ">
+          <FaHome size={25} className="mr-2" />
           <a href="/">HOME</a>
         </li>
-        <li className="hover:underline underline-offset-8">
+        <li className="hover:underline underline-offset-8 text-lg py-4 flex ">
+          <FaUsers size={25} className="mr-2" />
           <a href="/AboutUs">ABOUT US</a>
         </li>
-        <li className="hover:underline underline-offset-8">
+        <li className="hover:underline underline-offset-8 text-lg py-4 flex ">
+          <FaBookTanakh size={25} className="mr-2" />
           <a href="/Course">COURSE</a>
         </li>
-        <li className="hover:underline underline-offset-8">
+        <li className="hover:underline underline-offset-8 text-lg py-4 flex ">
+          <MdContacts size={25} className="mr-2" />
           <a href="/Contact">CONTACT US</a>
         </li>
-        <li className="hover:underline underline-offset-8">
+        <li className="hover:underline underline-offset-8 text-lg py-4 flex ">
+          <FaBlog size={25} className="mr-2" />
           <a href="/Blog">BLOG</a>
         </li>
-        <li className="hover:underline underline-offset-2">
+        <li className="hover:underline underline-offset-2 text-lg py-4 flex ">
+          <SiSimplelogin className="mr-2" size={25} />
           <a href="/Signup">SIGN UP</a>
         </li>
       </ul>
@@ -59,7 +68,7 @@ export default function App() {
         <NavbarItem>
           <Link
             href="/"
-            className="hover:underline underline-offset-2 font-bold text-gray-900"
+            className="hover:underline underline-offset-2 font-bold text-sky-700"
           >
             HOME
           </Link>
@@ -67,7 +76,7 @@ export default function App() {
         <NavbarItem isActive>
           <Link
             href="/AboutUs"
-            className="hover:underline underline-offset-2 font-bold text-gray-900 "
+            className="hover:underline underline-offset-2 font-bold text-sky-700 "
           >
             ABOUT US
           </Link>
@@ -75,7 +84,7 @@ export default function App() {
         <NavbarItem>
           <Link
             href="/Course"
-            className="hover:underline underline-offset-2 font-bold text-gray-900 "
+            className="hover:underline underline-offset-2 font-bold text-sky-700 "
           >
             COURSE
           </Link>
@@ -83,7 +92,7 @@ export default function App() {
         <NavbarItem>
           <Link
             href="/Contact"
-            className="hover:underline underline-offset-2 font-bold text-gray-900 "
+            className="hover:underline underline-offset-2 font-bold text-sky-700 "
           >
             CONTACT US
           </Link>
@@ -91,7 +100,7 @@ export default function App() {
         <NavbarItem>
           <Link
             href="/Blog"
-            className="hover:underline underline-offset-2 font-bold text-gray-900 "
+            className="hover:underline underline-offset-2 font-bold text-sky-700 "
           >
             BLOG
           </Link>
@@ -100,7 +109,7 @@ export default function App() {
       <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex animate-fadeIn">
           <Link
-            className="text-gray-900 hover:underline underline-offset-2 font-bold"
+            className="text-sky-700 hover:underline underline-offset-2 font-bold"
             href="/Signup"
           >
             SIGN UP
@@ -109,7 +118,7 @@ export default function App() {
         <NavbarItem>
           <Button
             as={Link}
-            className="text-gray-900 font-bold hover:bg-green-500 animate-fadeIn"
+            className="text-sky-700 font-bold hover:bg-green-500 animate-fadeIn"
             href="/Signin"
             variant="flat"
           >

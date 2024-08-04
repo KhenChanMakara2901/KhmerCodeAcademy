@@ -1,9 +1,14 @@
 import React from "react";
+import { LoadingOutlined } from "@ant-design/icons";
+import { Flex, Spin } from "antd";
 
-export default function LoadingPage() {
-  return (
-    <div className="flex items-center justify-center h-screen">
-      <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-green-500"></div>
-    </div>
-  );
-}
+const LoadingPage: React.FC = () => (
+  <Flex align="center" gap="middle">
+    <Spin indicator={<LoadingOutlined spin />} size="small" />
+    <Spin indicator={<LoadingOutlined spin />} />
+    <Spin indicator={<LoadingOutlined spin />} size="large" />
+    <Spin indicator={<LoadingOutlined style={{ fontSize: 48 }} spin />} />
+  </Flex>
+);
+
+export default LoadingPage;

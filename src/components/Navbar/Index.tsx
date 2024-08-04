@@ -51,14 +51,14 @@ export default function App() {
       <NavbarContent className="sm:hidden" justify="start">
         <NavbarMenuToggle />
       </NavbarContent>
-      <NavbarContent className="sm:hidden pr-3" justify="center">
+      <NavbarContent className="sm:hidden" justify="center">
         <NavbarBrand>
           <AcmeLogo />
           <p className="font-bold text-inherit text-2xl text-sky-700">KCA</p>
         </NavbarBrand>
       </NavbarContent>
       <NavbarContent
-        className="hidden sm:flex gap-4 animate-fadeIn"
+        className="hidden sm:flex gap-5 animate-fadeIn"
         justify="center"
       >
         <NavbarBrand>
@@ -73,7 +73,7 @@ export default function App() {
             HOME
           </Link>
         </NavbarItem>
-        <NavbarItem isActive>
+        <NavbarItem>
           <Link
             href="/AboutUs"
             className="hover:underline underline-offset-2 font-bold text-sky-700 "

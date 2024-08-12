@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="text-center xl:flex xl:items-center xl:justify-between xl:text-left">
           <div className="xl:flex xl:items-center xl:justify-start">
             <p className="mt-5 text-sm text-gray-900 xl:ml-6 xl:mt-0">
-              © Copyright.KCA 2024
+              © Copyright.khmercodeacademy
             </p>
           </div>
           <div className="items-center mt-8 xl:mt-0 xl:flex xl:justify-end xl:space-x-8">
@@ -61,18 +61,28 @@ export default function Footer() {
             </ul>
             <div className="w-full h-px mt-8 mb-5 xl:w-px xl:m-0 xl:h-6 bg-gray-50/20"></div>
             <ul className="flex items-center justify-center space-x-8 xl:justify-end">
-              <p className="text-xl font-medium">CONNECT WIH US:</p>
+              <p className="text-lg font-medium">CONNECT WITH US:</p>
               <li>
                 <Link
                   target="-blank"
                   href="https://www.facebook.com/khmercodeacademy?mibextid=LQQJ4d"
                 >
-                  <Image className="" src={facebook} alt="Logo" width={30} />
+                  <Image
+                    className="hover:scale-105"
+                    src={facebook}
+                    alt="Logo"
+                    width={30}
+                  />
                 </Link>
               </li>
               <li>
                 <Link target="-blank" href="https://t.me/khmercodeacademy">
-                  <Image src={telegram} alt="Logo" width={30} />
+                  <Image
+                    className="hover:scale-105"
+                    src={telegram}
+                    alt="Logo"
+                    width={30}
+                  />
                 </Link>
               </li>
               <li>
@@ -80,7 +90,12 @@ export default function Footer() {
                   target="-blank"
                   href="https://www.tiktok.com/@khmer_code_academy?_t=8oQBNiqWkga&_r=1"
                 >
-                  <Image src={tiktok} alt="Logo" width={30} />
+                  <Image
+                    className="hover:scale-105"
+                    src={tiktok}
+                    alt="Logo"
+                    width={30}
+                  />
                 </Link>
               </li>
               <li>
@@ -88,7 +103,12 @@ export default function Footer() {
                   target="-blank"
                   href="http://www.youtube.com/@khmercodeacademy"
                 >
-                  <Image src={youtube} alt="Logo" width={30} />
+                  <Image
+                    className="hover:scale-105"
+                    src={youtube}
+                    alt="Logo"
+                    width={30}
+                  />
                 </Link>
               </li>
             </ul>

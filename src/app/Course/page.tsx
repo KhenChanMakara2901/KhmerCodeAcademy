@@ -93,7 +93,7 @@ export default function page() {
             <li>Stat Management</li>
             <li>Styling</li>
           </ul>
-          <button className="mt-8 py-3 px-6 bg-white text-gray-900 font-bold rounded-full hover:bg-green-700 hover:scale-105 focus:outline-none focus:shadow-outline-blue transition duration-200">
+          <button className="mt-8 py-3 px-6 bg-white text-gray-900 font-bold rounded-full from-transparent via-emerald-500 to-transparent focus:outline-none focus:shadow-outline-blue transition duration-200">
             <Link target="-blank" href="https://t.me/Kongsun">
               REGISTER NOW
             </Link>

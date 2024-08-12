@@ -11,9 +11,9 @@ import Link from "next/link";
 export default function Featuress() {
   return (
     <section className="container mx-auto px-4 space-y-6 py-8 md:py-12 lg:py-20 rounded-2xl">
-      <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-        <h2 className="font-bold  text-3xl  leading-[1.1] sm:text-3xl md:text-6xl animate-wiggle">
-          WEB Development.
+      <div className="mx-auto flex max-w-[58rem] flex-col items-start space-y-4">
+        <h2 className="font-bold  text-3xl  leading-[1.1] sm:text-3xl md:text-6xl">
+          WEB Development:
         </h2>
         <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
           The product can personalize user experiences by understanding

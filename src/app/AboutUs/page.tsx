@@ -7,10 +7,12 @@ import About4 from "@/public/About Us/About4.jpg";
 
 export default function page() {
   return (
-    <div className="text-center p-10">
-      <h2 className="font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl animate-fadeIn">
-        WHY YOU SHOULD CHOOSE US
-      </h2>
+    <div className="max-w-screen-2xl mx-auto">
+      <div className="bg-gradient-to-r  from-sky-700 to-fuchsia-400  animate-slide-Out h-ful p-5">
+        <h2 className="font-extrabold text-white text-3xl text-center sm:text-4xl md:text-5xl lg:text-6xl animate-fadeIn">
+          WHY YOU SHOULD CHOOSE US
+        </h2>
+      </div>
       <div className="flex flex-wrap items-center mt-20 text-center">
         <div className="w-full md:w-3/5 lg:w-1/2 px-4">
           <Image
@@ -20,8 +22,8 @@ export default function page() {
           />
         </div>
         <div className="w-full md:w-2/5 lg:w-1/2 px-4 text-center md:text-left lg:pl-12">
-          <h3 className="font-bold mt-8 text-3xl md:mt-0 sm:text-4xl">
-            SIMPLE INTEGRATION
+          <h3 className="font-bold mt-8 text-4xl md:mt-0 sm:text-5xl">
+            SIMPLE INTEGRATION:
           </h3>
           <p className="sm:text-lg mt-6">
             Use the LocaleData gem to download translations directly into your
@@ -39,8 +41,8 @@ export default function page() {
           />
         </div>
         <div className="w-full md:w-2/5 lg:w-1/2 px-4 md:order-first text-center md:text-left lg:pr-12">
-          <h3 className="font-bold mt-8 text-3xl md:mt-0 sm:text-4xl">
-            EASY COLLABORATION
+          <h3 className="font-bold mt-8 text-4xl md:mt-0 sm:text-5xl">
+            EASY COLLABORATION:
           </h3>
           <p className="sm:text-lg mt-6">
             All LocaleData projects are private. Each project can have multiple
@@ -59,8 +61,8 @@ export default function page() {
           />
         </div>
         <div className="w-full md:w-2/5 lg:w-1/2 px-4 text-center md:text-left lg:pl-12">
-          <h3 className="font-bold mt-8 text-3xl md:mt-0 sm:text-4xl">
-            NO MORE SYNTAX ERRORS
+          <h3 className="font-bold mt-8 text-4xl md:mt-0 sm:text-5xl">
+            NO MORE SYNTAX ERRORS:
           </h3>
           <p className="sm:text-lg mt-6">
             LocaleData provides you easy import/export functions for your YAML
@@ -80,8 +82,8 @@ export default function page() {
           />
         </div>
         <div className="w-full md:w-2/5 lg:w-1/2 px-4 md:order-first text-center md:text-left lg:pr-12">
-          <h3 className="font-bold mt-8 text-3xl md:mt-0 sm:text-4xl">
-            BULK EDITING
+          <h3 className="font-bold mt-8 text-4xl md:mt-0 sm:text-5xl">
+            BULK EDITING:
           </h3>
           <p className="sm:text-lg mt-6">
             Do you need to change the path of many translation keys at once? No

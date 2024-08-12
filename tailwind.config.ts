@@ -15,6 +15,10 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       keyframes: {
+        slideOut: {
+          "0%": { transform: "translateY(-100%)" },
+          "100%": { transform: "translateY(0)" },
+        },
         wiggle: {
           "0%, 100%": { transform: "rotate(-3deg)" },
           "50%": { transform: "rotate(3deg)" },
@@ -34,9 +38,10 @@ module.exports = {
       },
       animation: {
         wiggle: "wiggle 1s ease-in-out infinite",
-        fadeIn: "fadeIn 0.5s ease-out",
+        fadeIn: "fadeIn 3s ease-out",
         scaleUp: "scaleUp 0.3s ease-in-out",
-        slideIn: "slideIn 0.5s ease-out",
+        slideIn: "slideIn 2.5s ease-out",
+        "slide-Out": "slideIn 2s ease-in-out",
       },
     },
   },

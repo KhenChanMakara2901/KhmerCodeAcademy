@@ -27,7 +27,9 @@ export function ImagesSliderDemo() {
         className="z-50 flex flex-col justify-center items-center"
       >
         <motion.p className="font-extrabold text-5xl md:text-7xl text-center bg-clip-text text-transparent bg-gradient-to-b from-white to-slate-200 py-4">
-          WELCOME TO <br /> KHMER CODE ACADEMY (KCA)
+          KHMER CODE ACADEMY
+          <br />
+          LEARN MORE ABOUT SOFTWARE DEVELOPMENT SKILL
         </motion.p>
         <Link href="/Contact">
           <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4 hover:bg-green-500">

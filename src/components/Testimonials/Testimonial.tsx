@@ -17,9 +17,14 @@ export default function Testimonial() {
         <div className="flex items-start max-w-6xl mx-auto mt-16">
           <div>
             <p className="flex items-center text-center text-gray-500 lg:mx-8">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
-              quam. Odio voluptatem officiis eos illo! Pariatur, totam alias.
-              Beatae accusamus earum quos obcaecati minima molestias.
+              As a student who has studied at Khmer Code Academy, I am very
+              pleased to be able to provide students with the opportunity to
+              learn Front end Development, one of the most popular skills in the
+              digital field. In his teaching, it is really good to explain the
+              lesson in detail to the students and take care of each student.
+              Not only that, the teacher also encourages the students to study
+              hard. Finally, I would like to thank you, I wish you good luck in
+              life.
             </p>
             <div className="flex flex-col items-center justify-center mt-8">
               <picture>

@@ -15,6 +15,7 @@ import { AcmeLogo } from "@/src/components/Navbar/Logo";
 import { FaHome, FaUsers, FaBlog } from "react-icons/fa";
 import { FaBookTanakh } from "react-icons/fa6";
 import { MdContacts } from "react-icons/md";
+
 export default function App() {
   const menuItems = [
     <Link>

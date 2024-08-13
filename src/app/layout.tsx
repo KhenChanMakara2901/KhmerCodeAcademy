@@ -36,9 +36,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Provider>
           <Navbar />
-          <main className="light text-foreground bg-background">
-            {children}
-          </main>
+          <main>{children}</main>
           <Footer />
         </Provider>
       </body>
